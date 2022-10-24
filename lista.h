@@ -73,7 +73,7 @@ public:
         return t;
     }
     
-    void print(){
+    void printStd(){
         if(isEmpty()){
             std::cout << "[ ]" << std::endl;
         }
@@ -86,6 +86,8 @@ public:
         }
         std::cout << "]" << std::endl;
     }
+    
+    
     
 private:
     Pos pred;
