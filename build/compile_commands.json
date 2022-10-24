@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/enrico/projects/AlgoritmiEStruttureDati/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/algoritmiestrutturedati.dir/main.cpp.o -c /home/enrico/projects/AlgoritmiEStruttureDati/main.cpp",
+  "file": "/home/enrico/projects/AlgoritmiEStruttureDati/main.cpp"
+},
+{
+  "directory": "/home/enrico/projects/AlgoritmiEStruttureDati/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/algoritmiestrutturedati.dir/lista.cpp.o -c /home/enrico/projects/AlgoritmiEStruttureDati/lista.cpp",
+  "file": "/home/enrico/projects/AlgoritmiEStruttureDati/lista.cpp"
+}
+]
