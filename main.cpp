@@ -7,7 +7,7 @@ int main(int argc, char **argv) {
     for (int i = 0; i<10; i++) {
         t = a.insert(t,i);
     }
-    a.print();
+    a.printStd();
         
     return 0;
 }
