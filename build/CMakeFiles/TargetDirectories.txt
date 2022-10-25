@@ -1,7 +1,0 @@
-/home/enrico/projects/AlgoritmiEStruttureDati/build/CMakeFiles/install/strip.dir
-/home/enrico/projects/AlgoritmiEStruttureDati/build/CMakeFiles/install/local.dir
-/home/enrico/projects/AlgoritmiEStruttureDati/build/CMakeFiles/install.dir
-/home/enrico/projects/AlgoritmiEStruttureDati/build/CMakeFiles/list_install_components.dir
-/home/enrico/projects/AlgoritmiEStruttureDati/build/CMakeFiles/rebuild_cache.dir
-/home/enrico/projects/AlgoritmiEStruttureDati/build/CMakeFiles/edit_cache.dir
-/home/enrico/projects/AlgoritmiEStruttureDati/build/CMakeFiles/algoritmiestrutturedati.dir
