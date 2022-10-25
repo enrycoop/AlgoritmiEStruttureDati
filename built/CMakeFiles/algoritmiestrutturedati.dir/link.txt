@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -rdynamic CMakeFiles/algoritmiestrutturedati.dir/main.cpp.o CMakeFiles/algoritmiestrutturedati.dir/lista.cpp.o CMakeFiles/algoritmiestrutturedati.dir/collezione.cpp.o CMakeFiles/algoritmiestrutturedati.dir/vettore.cpp.o -o algoritmiestrutturedati 

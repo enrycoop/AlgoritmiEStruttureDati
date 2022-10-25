@@ -1,7 +1,0 @@
-/home/enrycoop92/projects/AlgoritmiEStruttureDati/built/CMakeFiles/install/strip.dir
-/home/enrycoop92/projects/AlgoritmiEStruttureDati/built/CMakeFiles/install/local.dir
-/home/enrycoop92/projects/AlgoritmiEStruttureDati/built/CMakeFiles/install.dir
-/home/enrycoop92/projects/AlgoritmiEStruttureDati/built/CMakeFiles/list_install_components.dir
-/home/enrycoop92/projects/AlgoritmiEStruttureDati/built/CMakeFiles/rebuild_cache.dir
-/home/enrycoop92/projects/AlgoritmiEStruttureDati/built/CMakeFiles/edit_cache.dir
-/home/enrycoop92/projects/AlgoritmiEStruttureDati/built/CMakeFiles/algoritmiestrutturedati.dir
