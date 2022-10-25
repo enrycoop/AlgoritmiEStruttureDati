@@ -73,7 +73,7 @@ public:
         return t;
     }
     
-    void printStd(){
+    void print(){
         if(isEmpty()){
             std::cout << "[ ]" << std::endl;
         }
@@ -84,7 +84,12 @@ public:
             std::cout << t->value << " ";
             t = next(t);
         }
-        std::cout << "]" << std::endl;
+        std::cout << "]";
+    }
+    
+    void println(){
+        print();
+        std::cout << std::endl;
     }
     
     

@@ -1,13 +1,16 @@
 #include <iostream>
-#include "lista.h"
+#include "pila.h"
 
 int main(int argc, char **argv) {
-    Lista<int> a = Lista<int>();
-    Lista<int>::Pos t = a.head();
+    Pila<int> pila = Pila<int>();
     for (int i = 0; i<10; i++) {
-        t = a.insert(t,i);
+        pila.push(i);
     }
-    a.printStd();
+    pila.println();
+    
+    for (int i = 0; i<10; i++) {
+        pila.pop();
+    }
         
     return 0;
 }
