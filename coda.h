@@ -18,12 +18,71 @@
 
 #ifndef CODA_H
 #define CODA_H
+#include "lista.h"
 
 /**
  * @todo write docs
  */
+template <typename Item>
 class Coda
 {
+public:
+    Coda();
+    
+    bool isEmpty();
+    
+    void enqueque(Item v);
+    
+    Item dequeque();
+    
+    Item top();
+    
+    void print();
+    
+    void println();
+    
+private:
+    Lista<Item> items = Lista<Item>();
 };
+
+
+template <typename Item>
+Coda<Item>::Coda(){}
+
+template <typename Item>
+bool Coda<Item>::isEmpty() {return this->items.isEmpty(); }
+
+template <typename Item>
+void Coda<Item>::enqueque(Item v){
+    items.print();
+    std::cout << " <- " << v << std::endl;
+    items.insert(items.tail(),v);
+}
+
+template <typename Item>
+Item Coda<Item>::dequeque() {
+    Item p = items.read(items.head());
+    items.remove(items.head());
+    
+    std::cout << p << " <- ";
+    items.println();
+    
+    return p;
+}
+
+template <typename Item>
+Item Coda<Item>::top(){
+    return items.read(items.head());
+}
+
+template <typename Item>
+void Coda<Item>::println(){
+    items.println();
+}
+
+template <typename Item>
+void Coda<Item>::print(){
+    items.print();
+}
 
 #endif // CODA_H

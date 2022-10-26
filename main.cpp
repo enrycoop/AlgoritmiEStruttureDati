@@ -1,15 +1,15 @@
 #include <iostream>
-#include "pila.h"
+#include "coda.h"
 
 int main(int argc, char **argv) {
-    Pila<int> pila = Pila<int>();
+    Coda<int> coda = Coda<int>();
     for (int i = 0; i<10; i++) {
-        pila.push(i);
+        coda.enqueque(i);
     }
-    pila.println();
+    coda.println();
     
     for (int i = 0; i<10; i++) {
-        pila.pop();
+        coda.dequeque();
     }
         
     return 0;
